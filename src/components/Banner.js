@@ -12,17 +12,17 @@ const Banner = () => (
       <hr />
       <ul className="social">
         <li>
-          <a href="https://twitter.com/fxlemire">
+          <a target="_blank" href="https://twitter.com/fxlemire">
             <FaTwitterSquare />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/fxlemire/">
+          <a target="_blank" href="https://www.linkedin.com/in/fxlemire/">
             <FaLinkedinSquare />
           </a>
         </li>
         <li>
-          <a href="https://github.com/fxlemire">
+          <a target="_blank" href="https://github.com/fxlemire">
             <FaGithubSquare />
           </a>
         </li>
