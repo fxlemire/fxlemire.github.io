@@ -95,7 +95,7 @@ const Work = ({ techstack }) => (
       <div className="row item">
         <div className="twelve columns">
           <h3><a target="_blank" href="https://www.kopi.cafe">Kopi</a></h3>
-          <p className="info">Founder <span>&bull;</span> Montréal <span>&bull;</span> <em className="date">2017</em></p>
+          <p className="info">Founder <span>&bull;</span> Montréal <span>&bull;</span> <em className="date">May – Aug 2017</em></p>
 
           <p className="info">Kopi brings a barista with professional equipment to your office or event.</p>
 
@@ -125,7 +125,7 @@ const Work = ({ techstack }) => (
       <div className="row item">
         <div className="twelve columns">
           <h3><a target="_blank" href="https://vungle.com/">Vungle</a></h3>
-          <p className="info">Software Engineering Intern <span>&bull;</span> San Francisco <span>&bull;</span> <em className="date">2015</em></p>
+          <p className="info">Software Engineering Intern <span>&bull;</span> San Francisco <span>&bull;</span> <em className="date">May – Aug 2015</em></p>
 
           <p className="info">Vungle is the leading in-app video advertising platform for performance marketers and developers.</p>
 
@@ -158,7 +158,7 @@ const Work = ({ techstack }) => (
       <div className="row item">
         <div className="twelve columns">
           <h3><a target="_blank" href="http://beenox.com/en/">Beenox (Activision)</a></h3>
-          <p className="info">Gameplay Programmer Intern <span>&bull;</span> Québec <span>&bull;</span> <em className="date">2015</em></p>
+          <p className="info">Gameplay Programmer Intern <span>&bull;</span> Québec <span>&bull;</span> <em className="date">Jan – Apr 2015</em></p>
 
           <p className="info">Beenox is one of the major video game companies in Québec city, wholly owned subsidiary of Activision, which needs no introduction.</p>
 
@@ -182,7 +182,7 @@ const Work = ({ techstack }) => (
       <div className="row item">
         <div className="twelve columns">
           <h3><a target="_blank" href="https://www.morganstanley.com/">Morgan Stanley</a></h3>
-          <p className="info">Technology Summer Analyst <span>&bull;</span> Montréal <span>&bull;</span> <em className="date">2014</em></p>
+          <p className="info">Technology Summer Analyst <span>&bull;</span> Montréal <span>&bull;</span> <em className="date">May – Aug 2014</em></p>
 
           <p className="info">Morgan Stanley is a leading Wall Street global financial services firm.</p>
 
