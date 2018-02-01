@@ -38,11 +38,6 @@ class Navigation extends Component {
               Works
             </a>
           </li>
-          <li>
-            <a className="smoothscroll" href="#footer">
-              Footer
-            </a>
-          </li>
         </ul>
       </nav>
     );
