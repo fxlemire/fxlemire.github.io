@@ -7,6 +7,7 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
       <meta name="author" description={siteMetadata.author} />
+      <meta name="description" content={siteMetadata.description} />
       <link
         rel="stylesheet"
         type="text/css"
