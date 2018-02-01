@@ -112,7 +112,7 @@ const Work = ({ techstack }) => (
 
           <ul>
             <li>Acquired clients and concluded partnerships</li>
-            <li>Conceived marketing strategies</li>
+            <li>Conceived growth &amp; marketing strategies</li>
             <li>Developed and managed online presence</li>
             <li>Managed the team and established deadlines</li>
             <li>Handled logistics involved in coffee delivery and barista on-the-go</li>
