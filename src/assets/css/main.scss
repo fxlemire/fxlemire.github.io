@@ -1225,6 +1225,10 @@ ul#nav li.current a {
     animation: #{'p' + $amount} 2s ease;
   }
 
+  &.p50 {
+    @include skillFill(50);
+  }
+
   &.p60 {
     @include skillFill(60);
   }

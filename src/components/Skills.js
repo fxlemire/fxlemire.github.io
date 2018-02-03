@@ -24,7 +24,7 @@ const Skills = () => (
             <em>TypeScript / JavaScript ES7</em>
           </li>
           <li>
-            <span className="bar-expand p60 docker" />
+            <span className="bar-expand p50 docker" />
             <em>Docker</em>
           </li>
           <li>
