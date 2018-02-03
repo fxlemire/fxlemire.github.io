@@ -24,15 +24,15 @@ const Skills = () => (
             <em>TypeScript / JavaScript ES7</em>
           </li>
           <li>
-            <span className="bar-expand p60" />
-            <em>Project Management</em>
+            <span className="bar-expand p60 docker" />
+            <em>Docker</em>
           </li>
           <li>
             <span className="bar-expand p90 teamwork" />
             <em>Teamwork</em>
           </li>
           <li>
-            <span className="bar-expand p50 angion" />
+            <span className="bar-expand p60 angion" />
             <em>Angular &amp; Ionic 2</em>
           </li>
           <li>

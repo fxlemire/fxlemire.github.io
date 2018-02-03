@@ -1208,11 +1208,12 @@ ul#nav li.current a {
   line-height: 42px;
   border-radius: 3px 0 0 3px;
 
+  &.angion { background: linear-gradient(to bottom, #dd0031 0%, #dd0031 49%, #219fff 51%, #219fff 100%); }
+  &.docker { background: #008ab7; }
   &.nodejs { background: #026e00; }
   &.react { background: #61dafb; }
-  &.tsjs { background: linear-gradient(to bottom, #294e80 0%, #294e80 49%, #fbde34 51%, #fbde34 100%); }
   &.teamwork { background: #7c00b6; }
-  &.angion { background: linear-gradient(to bottom, #dd0031 0%, #dd0031 49%, #219fff 51%, #219fff 100%); }
+  &.tsjs { background: linear-gradient(to bottom, #294e80 0%, #294e80 49%, #fbde34 51%, #fbde34 100%); }
 
   @mixin skillFill($amount) {
     @keyframes #{'p' + $amount} {
@@ -1222,10 +1223,6 @@ ul#nav li.current a {
 
     width: #{$amount + '%'};
     animation: #{'p' + $amount} 2s ease;
-  }
-
-  &.p50 {
-    @include skillFill(50);
   }
 
   &.p60 {
