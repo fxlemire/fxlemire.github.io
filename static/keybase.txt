@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/fxlemire
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.fxlemire.com
+  * I am fxlemire (https://keybase.io/fxlemire) on keybase.
+  * I have a public key with fingerprint 5F07 1659 F746 F820 0DEA  0AE9 8184 DCCB 7380 D861
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012083b31740c52f3a97ca1c2e55f018a2fa6da33ab06ad30b8b2b0752f9dc0d3ae60a",
+      "fingerprint": "5f071659f746f8200dea0ae98184dccb7380d861",
+      "host": "keybase.io",
+      "key_id": "8184dccb7380d861",
+      "kid": "0101232f5da0e0928bda6ebcfcf9cd598623d6c30595e07603c31be62272e4adf8340a",
+      "uid": "5ed6f461a1593af6a1bfadd61bcd9819",
+      "username": "fxlemire"
+    },
+    "service": {
+      "hostname": "www.fxlemire.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1537568493,
+  "expire_in": 157680000,
+  "prev": "1c0d8d3b01ca0d910f8d18c52218ed7ae0d86b7d1ee7de02f620fab917e74905",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMNuAnicbZJ9TJVVHMcv4r0Q9kLJiHROe3KDipdznuc+b1wtXsyKYjFA2wxH53nO
+ee59Ap6L917uvUg30CEDacsYLyqttBfIajkjmVNa2UAGLBIQEgXBtSEyCTSkQKOe
+h8l/nX/Ozjmf7/d8f79z2h8JNoUF7Ssf6XGXXUZBPecbi0xvfaFNl1CSExdTiSVU
+HlmeSD4mbk9unoqpRApAGgiMxEDeCmSWVhgk8jKCMk1YVgFQQLSCOIwYBkmAQ5gB
+kiDREuB1VMQywAwiHEBULKWomp24Cl2q5tFtdS0POVZUeCunCDQAmCCAiChAwYpl
+WeIZAWCBg7rQ4XQbCj2chNwkXnXqe/oidzne//ArufXkDK2wGAECRFqQMOKIJCuy
+IsqYFQWOZjAnM4AVWQJ4DjAyAyXC0TRPEyvCisBYl3MXLduxBHOKlYMIsiKDFA5B
+SUEYc1CSsR5aNEA3cWmogOi04s8nBaqLUIFYSt/1qjIxGmtU8oDw+XzxK1S87CzQ
+9YUup8cpO/P1U4fHU+hONNSe4sJlnEi5D4xyJVXDei91hZe43KpToxKhTsoe1XCG
+LMOznGAVmViK+At1+1zVIFieE4A+jHuIV7eE+uMImJEAlBHAIgSKgKGgPzENBYJ5
+RIx+SjyGhPCYAFrhaKAgSYQ84a0iYCmjtD2ak0rk9ZjIrlu6VbuGPEVG3T+fz1lt
+CgozWcyrjD9mCnsofOXn2bLCTXUJJf11+bZtdxZ++nMXY225WnZt9ODLO2z3mwKB
+mefbYf3Tt5n1IymDW5YGa79r6bJk3lAHN6TGmGfd95Y8jjNf/jD06eCR42cv3Iq4
+NHdmpmJPbndnamfgQmrp4tKBZ4vrOobHZzM2dL90eU2MA53cObOROl1aHW2/W/Vi
+1eJU6KGEYKbi24M7jmfWXbl4u624eHyteb630huJMu/2Dv5ztvfkWEmUHLrF5Qge
+61jnIaeCQyJuWoa1O5UwduD7v+cnleGekb7fbj4xfnryaNaBvHnLJ9YG7Y/oxJQT
+Tx5u3549EBVeO9w2vGq3y/5jh6858vC9qvRdjtaHE/ymrz5uea+z2d8Uta/4mCun
+vWKiZnF9TF4om1IihzScs8X5bkVHku5zaTOVXY82mlOPfiC+shD4LGOzaXrjGxZs
+uvTa40O9Uzd64tNfDTXXwHR6Pl7b7E7qQntHuz+Ki7nWJ2nXF2qEVfvhU0Ot9jVx
+H67Tmqovbi3PjrE59k/F9r85Vh8xp239pahv26/J4uqRwImKtrG9Hpdr07HYkOym
+Oeb9tOkM8vVS/18Wc1lS9Quqr7be1xyWHLwpLbih6Rvl6pXPU3eW5Vv8b/vfGb3/
+b1L2RMWQ4O27nmKu7R4ICZlMnkgPs7372HOH5O3z01kNrZ2njpSrv0/szpF5X+Pa
+Z7yz7qqy0rj26tf/A6CGyVk=
+=7X3y
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/fxlemire
+
+==================================================================
