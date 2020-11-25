@@ -10,7 +10,7 @@ const Portfolio = ({ portfolio }) => (
         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.eprintit.mobileprint">
+              <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.eprintit.mobileprint">
                 <img alt="ePRINTit" src={portfolio.eprintit} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -27,7 +27,7 @@ const Portfolio = ({ portfolio }) => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a target="_blank" href="https://gitlab.com/fxlemire/trumpet-fingering">
+              <a target="_blank" rel="noreferrer" href="https://gitlab.com/fxlemire/trumpet-fingering">
                 <img alt="Trumpet Fingering" src={portfolio.trumpetfingering} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -44,7 +44,7 @@ const Portfolio = ({ portfolio }) => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a target="_blank" href="https://github.com/fxlemire/pair-matching">
+              <a target="_blank" rel="noreferrer" href="https://github.com/fxlemire/pair-matching">
                 <img alt="Secret Santa" src={portfolio.secretsanta} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -61,7 +61,7 @@ const Portfolio = ({ portfolio }) => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a target="_blank" href="https://github.com/fxlemire/adventofcode">
+              <a target="_blank" rel="noreferrer" href="https://github.com/fxlemire/adventofcode">
                 <img alt="Advent of Code" src={portfolio.adventofcode} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -78,7 +78,7 @@ const Portfolio = ({ portfolio }) => (
 
           <div className="columns portfolio-item">
             <div className="item-wrap">
-              <a target="_blank" href="https://www.cartagene.qc.ca/">
+              <a target="_blank" rel="noreferrer" href="https://www.cartagene.qc.ca/">
                 <img alt="CARTaGENE" src={portfolio.cartagene} />
                 <div className="overlay">
                   <div className="portfolio-item-meta">

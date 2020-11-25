@@ -9,7 +9,7 @@ import About from "../components/About";
 import Layout from "../components/Layout";
 import Resume from "../components/Resume";
 import Portfolio from "../components/Portfolio";
-import Testimonials from "../components/Testimonials";
+// import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 
 class IndexPage extends Component {

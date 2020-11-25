@@ -15,27 +15,27 @@ const Footer = () => (
       <div className="twelve columns">
         <ul className="social-links">
           <li>
-            <a target="_blank" href="mailto:fxlemire@webjomp.com">
+            <a target="_blank" rel="noreferrer" href="mailto:fxlemire@webjomp.com">
               <FaEnvelope />
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://www.linkedin.com/in/fxlemire">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fxlemire">
               <FaLinkedinIn />
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://twitter.com/fxlemire">
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/fxlemire">
               <FaTwitter />
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://github.com/fxlemire">
+            <a target="_blank" rel="noreferrer" href="https://github.com/fxlemire">
               <FaGithub />
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://gitlab.com/fxlemire">
+            <a target="_blank" rel="noreferrer" href="https://gitlab.com/fxlemire">
               <FaGitlab />
             </a>
           </li>

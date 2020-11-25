@@ -18,7 +18,7 @@ const Education = () => (
 
           <div className="desc">
             <p>Exchange semester at the National University of Singapore (NUS), Winter 2014.</p>
-            <p>Major in Software Engineering (<a target="_blank" href="http://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-major-software-engineering">curriculum</a>) with an emphasis on databases, distributed systems, software development and software architecture.</p>
+            <p>Major in Software Engineering (<a target="_blank" rel="noreferrer" href="http://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-major-software-engineering">curriculum</a>) with an emphasis on databases, distributed systems, software development and software architecture.</p>
           </div>
         </div>
       </div>
