@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "François-Xavier Lemire",
     author: "François-Xavier Lemire",
-    description: "Montreal-based software engineer interested in everything web tech related."
+    description: "Montreal-based software developer interested in everything web tech related."
   },
   pathPrefix: "/",
   plugins: [
