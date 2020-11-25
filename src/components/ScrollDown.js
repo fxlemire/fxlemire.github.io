@@ -1,5 +1,5 @@
-import React from "react";
-import { FaChevronCircleDown } from "react-icons/fa";
+import React from 'react';
+import { FaChevronCircleDown } from 'react-icons/fa';
 
 const ScrollDown = () => (
   <p className="scrolldown">

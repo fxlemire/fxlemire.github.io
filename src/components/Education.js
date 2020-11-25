@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Education = () => (
   <div className="row education">
@@ -13,12 +13,27 @@ const Education = () => (
         <div className="twelve columns">
           <h3>McGill University, Montréal</h3>
           <p className="info">
-            B.Sc. in Computer Science <span>&bull;</span> <em className="date">2012 – 2016</em>
+            B.Sc. in Computer Science <span>&bull;</span>{' '}
+            <em className="date">2012 – 2016</em>
           </p>
 
           <div className="desc">
-            <p>Exchange semester at the National University of Singapore (NUS), Winter 2014.</p>
-            <p>Major in Software Engineering (<a target="_blank" rel="noreferrer" href="http://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-major-software-engineering">curriculum</a>) with an emphasis on databases, distributed systems, software development and software architecture.</p>
+            <p>
+              Exchange semester at the National University of Singapore (NUS),
+              Winter 2014.
+            </p>
+            <p>
+              Major in Software Engineering (
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="http://www.mcgill.ca/study/2012-2013/faculties/science/undergraduate/programs/bachelor-science-bsc-major-software-engineering"
+              >
+                curriculum
+              </a>
+              ) with an emphasis on databases, distributed systems, software
+              development and software architecture.
+            </p>
           </div>
         </div>
       </div>
@@ -44,7 +59,10 @@ const Education = () => (
           </p>
 
           <div className="desc">
-            <p>Emphasis on Intellectual Property, Cyberspace, Information and Communication, Negociation and Corporate Law.</p>
+            <p>
+              Emphasis on Intellectual Property, Cyberspace, Information and
+              Communication, Negociation and Corporate Law.
+            </p>
           </div>
         </div>
       </div>

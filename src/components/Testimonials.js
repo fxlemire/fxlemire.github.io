@@ -1,5 +1,5 @@
-import React from "react";
-import Slider from "react-slick";
+import React from 'react';
+import Slider from 'react-slick';
 
 const settings = {
   // dots: true,
@@ -8,7 +8,7 @@ const settings = {
   speed: 500,
   slideToShow: 1,
   slideToScroll: 1,
-  swipeToSlide: true
+  swipeToSlide: true,
 };
 
 const Testimonials = () => (

@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react';
 
-import Navigation from "./Navigation";
-import Banner from "./Banner";
-import ScrollDown from "./ScrollDown";
+import Banner from './Banner';
+import Navigation from './Navigation';
+import ScrollDown from './ScrollDown';
 
 const Header = (props) => (
-  <header id="home" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
+  <header
+    id="home"
+    style={{ backgroundImage: `url(${props.backgroundImage})` }}
+  >
     <Navigation />
     <Banner />
     <ScrollDown />

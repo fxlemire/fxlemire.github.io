@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import {
+  FaChevronCircleUp,
   FaEnvelope,
-  FaLinkedinIn,
-  FaTwitter,
   FaGithub,
   FaGitlab,
-  FaChevronCircleUp
-} from "react-icons/fa";
+  FaLinkedinIn,
+  FaTwitter,
+} from 'react-icons/fa';
 
 const Footer = () => (
   <footer id="footer">
@@ -15,27 +15,47 @@ const Footer = () => (
       <div className="twelve columns">
         <ul className="social-links">
           <li>
-            <a target="_blank" rel="noreferrer" href="mailto:fxlemire@webjomp.com">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:fxlemire@webjomp.com"
+            >
               <FaEnvelope />
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fxlemire">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/fxlemire"
+            >
               <FaLinkedinIn />
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/fxlemire">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/fxlemire"
+            >
               <FaTwitter />
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noreferrer" href="https://github.com/fxlemire">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/fxlemire"
+            >
               <FaGithub />
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noreferrer" href="https://gitlab.com/fxlemire">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://gitlab.com/fxlemire"
+            >
               <FaGitlab />
             </a>
           </li>
@@ -44,7 +64,11 @@ const Footer = () => (
         <ul className="copyright">
           <li>&copy; 2018 François-Xavier Lemire</li>
           <li>
-            Shoutout to <a href="http://www.amanhimself.me">Aman Mittal</a> for the <a href="https://github.com/amandeepmittal/gatsby-starter-ceevee">Gatsby starter</a>
+            Shoutout to <a href="http://www.amanhimself.me">Aman Mittal</a> for
+            the{' '}
+            <a href="https://github.com/amandeepmittal/gatsby-starter-ceevee">
+              Gatsby starter
+            </a>
           </li>
         </ul>
       </div>

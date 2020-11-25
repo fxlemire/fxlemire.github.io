@@ -1,36 +1,39 @@
 import { graphql } from 'gatsby';
 import $ from 'jquery';
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "../assets/css/main.scss";
-
-import Header from "../components/Header";
-import About from "../components/About";
-import Layout from "../components/Layout";
-import Resume from "../components/Resume";
-import Portfolio from "../components/Portfolio";
+import About from '../components/About';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Layout from '../components/Layout';
+import Portfolio from '../components/Portfolio';
+import Resume from '../components/Resume';
 // import Testimonials from "../components/Testimonials";
-import Footer from "../components/Footer";
+
+import '../assets/css/main.scss';
 
 class IndexPage extends Component {
   componentDidMount() {
     const buttons = $('.smoothscroll');
 
     buttons.each((i, button) => {
-      $(button).on('click', function(e) {
+      $(button).on('click', function (e) {
         const height = $(`#${button.href.split('#')[1]}`).offset().top;
         const mobileBtn = $('.mobile-btn');
-        const diff = mobileBtn.is(":visible") ? 0 : $('#nav-wrap').height();
+        const diff = mobileBtn.is(':visible') ? 0 : $('#nav-wrap').height();
         const heightToScroll = height - diff;
 
-        $('html, body').animate({ scrollTop: heightToScroll < 0 ? 0 : heightToScroll, }, 1200);
+        $('html, body').animate(
+          { scrollTop: heightToScroll < 0 ? 0 : heightToScroll },
+          1200,
+        );
       });
     });
   }
 
   render() {
-    const formatQueriedImages = (edges) => edges.reduce(
-      (acc, e) => {
+    const formatQueriedImages = (edges) =>
+      edges.reduce((acc, e) => {
         const node = e.node.childImageSharp.fluid;
         const name = node.originalName.split('.')[0];
 
@@ -38,9 +41,7 @@ class IndexPage extends Component {
           ...acc,
           [name]: node.src,
         };
-      },
-      {},
-    );
+      }, {});
 
     const techstack = formatQueriedImages(this.props.data.techstack.edges);
     const portfolio = formatQueriedImages(this.props.data.portfolio.edges);
@@ -48,7 +49,11 @@ class IndexPage extends Component {
     return (
       <Layout>
         <div>
-          <Header backgroundImage={this.props.data.background.childImageSharp.fluid.src} />
+          <Header
+            backgroundImage={
+              this.props.data.background.childImageSharp.fluid.src
+            }
+          />
           <About />
           <Resume techstack={techstack} />
           <Portfolio portfolio={portfolio} />

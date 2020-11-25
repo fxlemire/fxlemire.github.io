@@ -1,14 +1,14 @@
-import $ from "jquery";
-import React, { Component } from "react";
+import $ from 'jquery';
+import React, { Component } from 'react';
 
 class Navigation extends Component {
   componentDidMount() {
     $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
-        $("#nav-wrap").addClass("color-scrolled");
+        $('#nav-wrap').addClass('color-scrolled');
       }
       if ($(this).scrollTop() < 50) {
-        $("#nav-wrap").removeClass("color-scrolled");
+        $('#nav-wrap').removeClass('color-scrolled');
       }
     });
   }
