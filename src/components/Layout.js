@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
+import { IconContext } from 'react-icons';
 import { siteMetadata } from "../../gatsby-config";
 
 const TemplateWrapper = ({ children }) => (
@@ -21,7 +22,9 @@ const TemplateWrapper = ({ children }) => (
       <title>{siteMetadata.title}</title>
       <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
     </Helmet>
-    {children()}
+    <IconContext.Provider value={{ style: { verticalAlign: 'middle' } }}>
+      {children}
+    </IconContext.Provider>
   </div>
 );
 

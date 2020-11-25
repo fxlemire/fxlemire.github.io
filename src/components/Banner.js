@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithubSquare, FaLinkedinSquare, FaTwitterSquare } from "react-icons/lib/fa";
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 const Banner = () => (
   <div className="row banner">
@@ -18,7 +18,7 @@ const Banner = () => (
         </li>
         <li>
           <a target="_blank" href="https://www.linkedin.com/in/fxlemire/">
-            <FaLinkedinSquare />
+            <FaLinkedin />
           </a>
         </li>
         <li>

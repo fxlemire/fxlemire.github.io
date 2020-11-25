@@ -1,12 +1,12 @@
 import React from "react";
 import {
   FaEnvelope,
-  FaLinkedin,
+  FaLinkedinIn,
   FaTwitter,
   FaGithub,
   FaGitlab,
   FaChevronCircleUp
-} from "react-icons/lib/fa";
+} from "react-icons/fa";
 
 const Footer = () => (
   <footer id="footer">
@@ -21,7 +21,7 @@ const Footer = () => (
           </li>
           <li>
             <a target="_blank" href="https://www.linkedin.com/in/fxlemire">
-              <FaLinkedin />
+              <FaLinkedinIn />
             </a>
           </li>
           <li>

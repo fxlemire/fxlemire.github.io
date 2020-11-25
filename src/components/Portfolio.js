@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPlus, FaTag } from "react-icons/lib/fa";
+import { FaPlus } from "react-icons/fa";
 
 const Portfolio = ({ portfolio }) => (
   <section id="portfolio">

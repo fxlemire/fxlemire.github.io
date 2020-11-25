@@ -1,11 +1,12 @@
+import { graphql } from 'gatsby';
 import $ from 'jquery';
 import React, { Component } from "react";
-import Link from "gatsby-link";
 
 import "../assets/css/main.scss";
 
 import Header from "../components/Header";
 import About from "../components/About";
+import Layout from "../components/Layout";
 import Resume from "../components/Resume";
 import Portfolio from "../components/Portfolio";
 import Testimonials from "../components/Testimonials";
@@ -30,7 +31,7 @@ class IndexPage extends Component {
   render() {
     const formatQueriedImages = (edges) => edges.reduce(
       (acc, e) => {
-        const node = e.node.childImageSharp.responsiveResolution;
+        const node = e.node.childImageSharp.fluid;
         const name = node.originalName.split('.')[0];
 
         return {
@@ -45,14 +46,16 @@ class IndexPage extends Component {
     const portfolio = formatQueriedImages(this.props.data.portfolio.edges);
 
     return (
-      <div>
-      <Header backgroundImage={this.props.data.background.childImageSharp.responsiveResolution.src} />
-      <About />
-      <Resume techstack={techstack} />
-      <Portfolio portfolio={portfolio} />
-      {/* <Testimonials /> */}
-      <Footer />
-    </div>
+      <Layout>
+        <div>
+          <Header backgroundImage={this.props.data.background.childImageSharp.fluid.src} />
+          <About />
+          <Resume techstack={techstack} />
+          <Portfolio portfolio={portfolio} />
+          {/* <Testimonials /> */}
+          <Footer />
+        </div>
+      </Layout>
     );
   }
 }
@@ -63,7 +66,7 @@ export const pageQuery = graphql`
   query PageQuery {
     background: file(relativePath: { eq: "header-background.jpg" }) {
       childImageSharp {
-        responsiveResolution(width: 1920, quality: 70) {
+        fluid(maxWidth: 1920, quality: 70) {
           src
         }
       }
@@ -72,7 +75,7 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            responsiveResolution(width: 60, quality: 70) {
+            fluid(maxWidth: 60, quality: 70) {
               originalName
               src
             }
@@ -84,7 +87,7 @@ export const pageQuery = graphql`
       edges {
         node {
           childImageSharp {
-            responsiveResolution(width: 250, quality: 70) {
+            fluid(maxWidth: 250, quality: 70) {
               originalName
               src
             }

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCloudDownload } from "react-icons/lib/fa";
+import { FaCloudDownloadAlt } from 'react-icons/fa';
 
 import profilePic from "../assets/images/profilepic.jpg";
 
@@ -30,7 +30,7 @@ const About = () => (
           <div className="columns download">
             <p>
               <a href="fxlemire-resume.pdf" className="button">
-                <FaCloudDownload /> Download Resume
+                <FaCloudDownloadAlt /> Download Resume
               </a>
             </p>
           </div>
