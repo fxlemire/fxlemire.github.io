@@ -44,7 +44,7 @@ const Education = () => (
           <p className="info">
             Registered to the Roll of Order
             <span>&bull;</span>
-            <em className="date">2011</em>
+            <em className="date">2011 – 2025</em>
           </p>
         </div>
       </div>
